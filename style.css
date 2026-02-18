@@ -51,12 +51,30 @@ overflow: hidden;
     width: 100px;
     border: none;
     border-radius: 8px;
+    animation-duration: 1s ;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+    animation-direction: normal;
+    animation-play-state: paused;
   }
   .toggle-s {
     height: 100px;
     width: 100px;
     border: none;
     border-radius: 8px;
+     animation-duration: 2s ;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+       animation-duration: 1s ;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+    animation-direction: normal;
+    animation-play-state: paused;
   }  
 }
 
@@ -70,4 +88,23 @@ overflow: hidden;
 
 .menu-section {
   grid-column: 1 span;
+}
+
+.toggle-o:hover{
+  animation-play-state: running;
+}
+
+.toggle-s:hover{
+  animation-play-state: running;
+}
+
+
+@keyframes spin{
+0%{
+
+}
+100%{
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
 }
