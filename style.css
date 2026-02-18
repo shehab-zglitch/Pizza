@@ -17,14 +17,15 @@ body {
 #menu {
   background-color: #dc143c;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
   margin: auto;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-overflow: hidden;
+overflow: colums;
+flex-flow: column;
 }
 
 .about {
