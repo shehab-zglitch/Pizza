@@ -17,7 +17,7 @@ body {
 #menu {
   background-color: #dc143c;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
   margin: auto;
   display: flex;
   grid-template-columns: repeat(4, 1fr);
