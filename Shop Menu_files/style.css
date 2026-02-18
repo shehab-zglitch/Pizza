@@ -1,0 +1,63 @@
+body{
+    background-color:#F75270 ;
+         border: none;
+  border-radius: 8px;
+  
+}
+
+#header{
+    background-color:#DC143C ;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+      border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#menu{
+    background-color: #DC143C;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+    border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about{
+        display: -ms-inline-grid ;
+text-align: center;
+background-color: transparent;
+
+        .about-card-owner{
+    background-color: #DC143C;
+    color: whitesmoke;
+      border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+ 
+
+}
+
+.about-card-shop{
+    background-color: #DC143C;
+    color: whitesmoke;
+      border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+.toggle-o{
+    height:100px ;
+    width: 100px;
+     border: none;
+  border-radius: 8px;
+}
+.toggle-s{
+    height:100px ;
+    width: 100px;
+     border: none;
+  border-radius: 8px;
+}
+}
+

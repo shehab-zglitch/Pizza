@@ -1,0 +1,72 @@
+body {
+  background-color: #f75270;
+  border: none;
+  border-radius: 8px;
+}
+
+#header {
+  background-color: #dc143c;
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#menu {
+  background-color: #dc143c;
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+
+.about {
+  display: grid;
+  text-align: center;
+  background-color: transparent;
+overflow: hidden;
+  .about-card-owner {
+    background-color: #dc143c;
+    color: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-card-shop {
+    background-color: #dc143c;
+    color: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .toggle-o {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+  }
+  .toggle-s {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+  }  
+}
+
+.side-nav{
+  text-align: right;
+position: sticky;
+bottom: 00%;
+right:50% ;
+overflow: hidden;
+}
+
+.menu-section {
+  grid-column: 1 span;
+}
